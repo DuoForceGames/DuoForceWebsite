@@ -1,0 +1,116 @@
+body{margin-top:130px;}
+footer {
+  text-align: center;
+  padding: 5px;
+  right:0;
+  background-color: Black;
+  color: white;
+        }
+.menu{
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right:0;
+  padding: 60px 0px;
+  width: 100%;
+  z-index: 5;
+  transition: 0.45s;
+    }
+.HomeButton{
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: top;
+  font-size: 32px;
+  height: auto;
+  cursor:pointer;
+  position: absolute; top:40; left: 225;
+  transition: 0.45s;
+        }
+.HomeButtonActive{
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: top;
+  text-decoration: underline;
+  font-size: 32px;
+  height: auto;
+  cursor:pointer;
+  position: absolute; top:40; left: 225;
+  transition: 0.45s;
+        }
+.GamesButton{
+ background-color: black;
+  border: none;
+  color: white;
+  text-align: top;
+  font-size: 32px;
+  height: auto;
+  cursor:pointer;
+  position: absolute; top: 40; left: 45%;
+   transition: 0.45s;
+        }
+.GamesButtonActive{
+  text-decoration: underline;
+ background-color: black;
+  border: none;
+  color: white;
+  text-align: top;
+  font-size: 32px;
+  height: auto;
+  cursor:pointer;
+  position: absolute; top: 40; left: 45%;
+  transition: 0.45s;
+        }
+.OOButton{
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: top;
+  font-size: 32px;
+  height: auto;
+  cursor:pointer;
+  position: absolute; top: 40; right:60;
+    transition: 0.45s;
+        }
+ .OOButtonActive{
+   text-decoration: underline;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: top;
+  font-size: 32px;
+  height: auto;
+  cursor:pointer;
+  position: absolute; top: 40; right:60;
+    transition: 0.45s;
+
+        }
+.image{
+    position: absolute; top:14; left:15;
+    width:165;
+    height:88;
+    transition: 0.45s;
+
+    }
+.JJText{
+  font-family:MayanFont;
+  background: -webkit-linear-gradient(-90deg, rgba(255,233,86,1) 6%, rgba(255,95,0,1) 92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+ }
+.JJButton{
+  background-size: 100%;
+  background-image: url("GamePlayScreenShot1.png");
+  border: 4px solid #000000; 
+  
+  width:950;
+  height:534.375;
+  cursor:pointer;
+ }
+ @font-face {
+  font-family: MayanFont;
+  src: url(Mayan.ttf);
+}
